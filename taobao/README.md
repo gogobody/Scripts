@@ -9,7 +9,7 @@
 #### 使用教程
 1. 安装软件 [Autojs](apk)  
 Autojs是一款安卓脚本自动化模拟用户点按操作apk
-2. 导入js
+2. 导入js  
 下载[js](release)脚本导入到Autojs中，点击运行即可。
 3. 脚本效果  
 ![使用](picture/use.gif)
