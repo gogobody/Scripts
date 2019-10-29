@@ -167,6 +167,7 @@ function toAct(actIn) {
     toFind(actIn, 3, "", 2).findOne().click();
     log("状态：活动控件加载完成");
     log("状态：活动页面加载中");
+	timeout(8000, currentActivity());
     textContains("上限").waitFor();
     log("状态：已进入活动页面");
     toCollect();
