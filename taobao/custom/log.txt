@@ -1,0 +1,16 @@
+活动流程如下：
+Rukawalee
+淘宝喵币自动完成通知
+提醒:即将自动领取喵币
+准备: com.taobao.taobao
+设备:设置长亮.
+运行: com.taobao.taobao
+准备: com.taobao.tao.TBMainActivity
+状态:活动耗时1s
+状态:进入主界面中
+状态:活动耗时2s .
+准备: android.widget.FrameLayout
+状态:进入活动界面中	(提示:这里活动组件还未加载完成)
+状态:活动入口加载完成   (提示:这里才正式进入活动)
+状态:活动页面加载中
+状态:已进入活动页面     (提示:顺利加载完成)
