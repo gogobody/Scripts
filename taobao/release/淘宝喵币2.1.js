@@ -4,10 +4,10 @@ var act = "android.widget.FrameLayout";
 var view = "android.view.View";
 var btn = "android.widget.Button";
 var c_className = act;
-var c_depth = 3;
+var c_depth = 11;
 var c_indexInParent = 1;
 var c_btn = btn;
-var c_btn_depth = 14;
+var c_btn_depth = 18;
 var c_btn_indexInParent = 5;
 var f_name = "./custom.conf";
 
@@ -146,7 +146,7 @@ function sign(str) {
 function toCollect() {
     dob();
     log("准备：进行活动任务");
-    toFind(btn, 14, "", 5, true).findOne().click();
+    toFind(btn, c_btn_depth, "", c_btn_indexInParent, true).findOne().click();
     log("状态：活动耗时3s");
     sleep(3000);
     log("准备：执行任务签到");
