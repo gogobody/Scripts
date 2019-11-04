@@ -64,6 +64,10 @@ function doTask(str) {
                 break;
             case "去浏览":
             case "去进店":
+                sleep(2000);
+                swipe(device.width / 2, 4*device.height/5, device.width / 2, device.height/5,1000);
+                sleep(1000);
+                swipe(device.width / 2, 4*device.height/5, device.width / 2, device.height/5,1000);
                 wait(26, textContains("任务完成"),
                     textContains("任务已完成"),
                     textContains("已获得"),
@@ -208,7 +212,7 @@ function toAct(actIn) {
     log("状态：活动入口加载完成");
     log("状态：活动页面加载中");
     subThread = timeout(8000, currentActivity(), "请查找{双11合伙人}重新进入活动");
-    textContains("上限").waitFor();
+    // textContains("上限").waitFor();
     subThread.interrupt();
     log("状态：已进入活动页面");
     toCollect();
